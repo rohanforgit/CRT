@@ -1,1 +1,1 @@
-print(riyan)
+print('riyan')
