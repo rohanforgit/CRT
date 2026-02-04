@@ -1,6 +1,12 @@
-def Student_Grade_System(name:str,n1: int,n2: int,n3: int) -> str:
-   pass
+def Student_Grade_System(name: str, n1: int, n2: int, n3: int) -> str:
+    average = (n1 + n2 + n3) / 3
 
+    if average >= 35:
+        status = "Pass"
+    else:
+        status = "fail"
+
+    return f"Average grade: {round(average, 2)}, Status: {status}"
 
 if __name__ == '__main__':
     name = input()
