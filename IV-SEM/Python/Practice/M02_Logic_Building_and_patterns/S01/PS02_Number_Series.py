@@ -22,7 +22,7 @@
 #     else:
 #         print(i,end=",")
 n = 1
-for i in range(17,10,1):
+\,10,1):
     print(n*i)
     n = n*i
     
