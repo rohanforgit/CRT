@@ -1,4 +1,5 @@
 def even_odd(n: int) -> str:
+   #task completed
    pass
    if n%2!=0:
        return "Weird"

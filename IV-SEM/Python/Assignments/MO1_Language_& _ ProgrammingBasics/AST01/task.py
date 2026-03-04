@@ -1,4 +1,5 @@
 def Ticket_Pricing(n: int) -> int:
+   #1
    pass
    if n<5:
       return "Free"

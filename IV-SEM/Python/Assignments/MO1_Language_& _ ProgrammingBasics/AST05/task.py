@@ -11,7 +11,7 @@ def Collatz_Sequence(n: int)-> List:
            n = 3*n+1
        li.append(n)
    return li
- 
+ #task completed
 
 if __name__ == '__main__':
     n = int(input())
